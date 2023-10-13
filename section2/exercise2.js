@@ -10,6 +10,7 @@ const currentYear = new Date().getFullYear();
 let birthYear =
     (hasHadBirthdayThisYear) ? currentYear - age : currentYear - (age + 1);
 
+// Template strings
 let output = (`${name} ${surname} tem ${age} anos, pesa ${weight} Kg,
 tem ${height}m de altura e seu IMC é de ${bodyMassIndex.toFixed(2)}.
 ${name} ${surname} nasceu em ${birthYear}.`);
